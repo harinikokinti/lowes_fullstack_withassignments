@@ -21,7 +21,7 @@ lowes_javabootcamp-dih-batch2
 					|
 					|___core-java-assignments							|
 					|
-					|___employee-mgmt-with-arrays
+					|___employee-mgmt-with-arrays				
 										
 					|___employee-mgmt-with-collection
 					|
