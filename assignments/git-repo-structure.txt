@@ -1,0 +1,46 @@
+lowes_javabootcamp
+	|
+	|____	labs
+			|
+			|__corejava
+			|
+			|__springcore
+			|
+			|__springmvc
+			|
+			|__springrest
+			|
+			|__springboot
+
+	|
+	|____ 	assignments
+				|
+				|__corejava
+					|
+					|___employee-mgmt-with-arrays
+										
+					|___employee-mgmt-with-collection
+					|
+					 __ employee-mgmt-with-validation
+					|
+					 __ employee-mgmt-with-jdbc
+					|
+					 __ employee-mgmt-with-impexp
+					|
+					 __ employee-mgmt-with-stats
+				|
+				|__springcore
+					|
+					|___employee-mgmt-with-spring-core
+				|
+				|__sprngmvc
+					|
+					|__employee-mgmt-with-spring-mvc
+				|
+				|__springrest
+					|
+					|__employee-mgmt-with-spring-rest
+				|
+				|__springboot
+					|
+					|__employee-mgmt-with-spring-boot
