@@ -1,4 +1,4 @@
-lowes_javabootcamp-dih_batch2
+lowes_javabootcamp-dih-batch2
 	|
 	|____	labs
 			|
