@@ -5,6 +5,8 @@ History
 	- 2006/07 -> JVM -> FOSS (Free & Open Source Software)
 	- 2009/10 -> Oracle acquired Sun Microsystems and become owner of Java
 	- latest version 18
+	- Oracle JDK
+	- Open JDK
 	
 Design Goals
 	- simple, object oriented, familiar
@@ -171,8 +173,49 @@ Object Oriented Programming
 		- hashCode()
 		- equals()
 		- toString()
+	
+Collections Framework
+    - enables to perform operations on group of objects
+	- code reusability
+	- improves the program speed and performance
+	
+	- set of interfaces
+	- corresponding implementation classes
+	- algorithms to perform different operations viz. search, sort, aggregate, etc.
+	
+	- Iterable
+		- Collection
+			- List - dynamic sizing, ordered, index based, supports 
+				- Vector - synchronized
+				- ArrayList - faster frequent reads, random access
+				- LinkedList - frequent insertions and updations
+			- Set - not allows duplicates, sorted, no index
+				- HashSet - faster search, works based on hashing techinque, not ordered/sorted, allows null values
+				- TreeSet - sorting, not allows null values
+					- Comparable
+						- compareTo(object ob)
+					- Comparator
+						- compare(Object ob1, Objec ob2)
+				- LinkedHashSet - ordered, maintains insertion order					
+			- Queue - FIFO
+				-Deque
+					- PriorityQueue
+					- BlockingQueue
+					
+	- Map - maintains data as key, value pair, not allows duplicate keys
+		- Hashtable -  not allows null keys, values
+		- HashMap	- allows null keys and values
+		- TreeMap	- not allows null keys and allows null values
+		- LinkedHashMap -  allows null keys and values
 		
-
+		- Map.Entry
+			- key
+			- value
+		
+	- Iterator
+	- ListIterator
+	- ForEach
+	
 [Appendix]
 Class Libraries
 	- Language Libraries
