@@ -4,9 +4,7 @@ History
 	- v1.0 -> 1996
 	- 2006/07 -> JVM -> FOSS (Free & Open Source Software)
 	- 2009/10 -> Oracle acquired Sun Microsystems and become owner of Java
-	- latest version 18
-	- Oracle JDK
-	- Open JDK
+	- latest version 15
 	
 Design Goals
 	- simple, object oriented, familiar
@@ -32,9 +30,6 @@ Release
 	- v13  -> 2019(Sep)
 	- v14  -> 2020(Mar)
 	- v15  -> 2020(Sep)
-	- v16  -> 2021(Mar)
-	- v17  -> 2021(Sep) (LTS)
-	- v18  -> 2022(Mar)
 	
 JDK vs JRE vs JVM
 
@@ -66,7 +61,7 @@ Language Constructs
 		
 	- Operators
 		- Arithmetic Operators
-		- Relational Operators
+		- Relational Operaytors
 		- Bitwise Operators
 		- Assignment Operators
 		- Conditional Operators 
@@ -173,15 +168,59 @@ Object Oriented Programming
 		- hashCode()
 		- equals()
 		- toString()
+		
+Collections
+	- An object that groups multiple elements into a single unit. Collections are used to store, retrieve, manipulate, and communicate aggregate data.
+	- A collections framework is a unified architecture for representing and manipulating collections
 	
-Collections Framework
-    - enables to perform operations on group of objects
-	- code reusability
-	- improves the program speed and performance
+	[Collection Framework]
+	- Interfaces - Collection, Set, List, Queue, Deque, Map
+	- Implementations - ArrayList, LinkedList, HashSet, TreeSet, LinkedHashSet, ArrayDeque, HashMap, TreeMap, LinkedHashMap
+	- Algorithms - Sorting, Shuffling, Searching, Data Manipulation, Composition, Min/Max
 	
-	- set of interfaces
-	- corresponding implementation classes
-	- algorithms to perform different operations viz. search, sort, aggregate, etc.
+	[Benefits]
+	- Reduces Programming Effort
+	- Increases Program Speed and Quality
+	- Allows interoperability among unrelated APIs
+	- Reduces effort to learn and to use new APIs
+	- Reduces effort to design new APIs
+	- Fosters software reuse
+	
+	Arrays
+		- Fixed size
+		- Sequential memory allocation
+		
+	Vector
+		- Dynamic Array
+		- Synchronized. Thread Safe
+		
+	Hashtable
+		- Key Value store (Objects)
+		- Synchronized. Thread Safe
+		
+	Properties
+		- Key Value store (String)
+		
+	List - indexed and ordered
+		- Vector
+		- ArrayList
+		- LinkedList
+			
+	Set - maintains unique values and sorted
+		- TreeSet
+		- HashSet
+		- LinkedHashSet
+			
+	Map - key value store
+		- TreeMap
+		- HashMap
+		- LinkedHashMap
+			
+	Queue - FIFO
+		- PriorityQueue
+		- Deque	
+		
+Collections Framework Hierachy
 	
 	- Iterable
 		- Collection
@@ -206,19 +245,186 @@ Collections Framework
 		- Hashtable -  not allows null keys, values
 		- HashMap	- allows null keys and values
 		- TreeMap	- not allows null keys and allows null values
-		- LinkedHashMap -  allows null keys and values
+		- LinkedHashMap -  allows null keys and values		
+	
+Generics
+	- Stronger type checks at compile time
+	- Elimination of casts
+	- Enabling programmers to implement generic algorithms
+	- Type Parameter Naming Convention
+		E - Element (used extensively by the Java Collections Framework)
+		K - Key
+		N - Number
+		T - Type
+		V - Value
+		S,U,V etc. - 2nd, 3rd, 4th types
 		
-		- Map.Entry
-			- key
-			- value
+Reflection
+	- An API that represents ("reflects") the classes, interfaces, and objects in the current Java Virtual Machine.
+	- Reflection is commonly used by programs which require the ability to examine or modify the runtime behavior of applications running in the Java virtual machine
+	[Use cases]
+	- Extensibility Features
+	- Class Browsers and Visual Development Environments
+	- Debuggers and Test Tools
+	[Limitations]
+	- Performance Overhead
+	- Security Restrictions
+	- Exposure of Internals
+	
+Annotations
+	-Annotations, a form of metadata, provide data about a program that is not part of the program itself
+	
+	[Use cases]
+	- Information for the compiler
+	- Compile-time and deployment-time processing
+	- Runtime Processing
+	
+	[Predefined Annotations]
+	- @Deprecated
+	- @Override
+	- @SuppressWarnings
+	- @SafeVarArgs
+	- @FunctionalInterface
+	[Custom Annotations]
+	[Meta Annotations]
+	- @Documented
+	- @Inherited
+	- @Retention
+	- @Target
+	- @Repeatable
+	
+Nested/Inner Classes
+	- A nested class is a member of its enclosing class.
+	- Non-static nested classes (inner classes) have access to other members of the enclosing class, even if they are declared private.
+	- Static nested classes do not have access to other members of the enclosing class
+	
+	[Why Nested Classes]
+	- It is a way of logically grouping classes that are only used in one place
+	- It increases encapsulation
+	- It can lead to more readable and maintainable code
+	
+	[Types]
+	- Static Nested Classes
+	- Inner Classes (Non-static)
+		- Local Inner Class -> declare an inner class within the body of a method
+		- Anonymous Inner Class -> declare an inner class within the body of a method without naming the class
+	
+Functional Programming
+	- data immutable
+	- computations are done by evaluation of functions
+	- returning values instead modifying
+	- functions can be passed as arguments
+	- assign functions to variables
+	
+Lambda Expressions
+	- Lambda expressions enables to treat functionality as method argument, or code as data.
+	- Functional Interface
+		- performs single task
+		- has only one abstract method
+	- Consumer - One argument, no return values
+	- Supplier - No argument and only return a value
+	- Function - Take an argument and return a value
+	- Predicate - Take an argument and always return boolean
+	
+Stream APIs
+	- Streaming Source
+	- Intermediate Operations	-> filter, map, sort, distinct, etc..
+	- Termial Operations
+		- Reduce Operation -> count, avg, sum, min/max, etc..
+		- Collect Operation -> toList, toSet, grouping, etc..
 		
-	- Iterator
-	- ListIterator
-	- ForEach
+Other Java 8 Features
+	- Default Methods
+	- Optional
+	- New DateTime API
+	
+Multi-threading and Concurrency API
+	- Concurrent Programming Overview
+	- Process vs Threads
+	- Thread Creation
+		- Extend Thread
+		- Implement Runnable
+		- Implement Callable
+		
+	- Thread Lifecycle
+		- New -> Runnable -> Running -> Sleep -> Runnable
+		- New -> Runnable -> Running -> Waiting -> Notify -> Runnable
+		- New -> Runnable -> Running -> Blocked -> Acquire Lock -> Runnable
+		- New -> Runnable -> Running -> Dead
+	
+	- Thread Constructs
+		- sleep - holds lock and put the thread to sleep state until the time elapses
+		- wait - release locks and put the thread to wait state until receive notification
+		- notify - sends notification to the waiting threads
+		- notifyAll - sends notification to all the waiting threads
+		- join - makes parent thread to wait until child thread terminates
+		- interrupt - interrupts the thread execution
+		- yield - gives the chance for other threads to runs
+		- volatile - transient shared variable		
+		- synchronized <- Thread Interference, Memory Inconsistency
+		- Thread Synchronization
+		- Thread Liveness
+			- Starvation
+			- DeadLock
+		- Concurrency API	
+			- Callable
+			- Executors 
+			- Thread Pool
+			- Future
+			
+			- ForkJoin Framework
+			- CompleteableFuture
+			
+			- Concurrent Collections
+			- Locks and Conditions
+			- Atomic
+		
+Java I/O
+	- An I/O Stream represents an input source or an output destination. A stream can represent many different kinds of sources and destinations, including disk files, devices, other programs, and memory arrays
+	- Byte Stream -> Programs use byte streams to perform input and output of 8-bit bytes
+	- Character Stream -> Java platform stores character values using Unicode conventions. Character stream I/O automatically translates this internal format to and from the local character set. 
+	- Buffered Stream -> Buffered input streams read data from a memory area known as a buffer; the native input API is called only when the buffer is empty. Similarly, buffered output streams write data to a buffer, and the native output API is called only when the buffer is full.
+		- Flushing Buffer Stream to sync write with native file sys
+	- Scanning and Formatting
+	- I/O from command line
+	
+	- File I/O
+		ByteStream 
+			- FileInputStream
+			- FileOutputStram
+		CharacterStream
+			- FileReader
+			- FilerWriter
+		BufferedStream
+			- BufferedReader
+			- BufferedWriter
+			- BufferedInputStream
+			- BufferedOutputStream
+			
+	- Console I/O
+		Scanner
+		Console
+		BufferedReader
+		
+	- Serialization / De-serialization
+		ObjectOutputStream
+		ObjectInputStream
+	
+JDBC API
+	- Specification to access RDBMS from Java
+	- 4 Types of drivers
+	- Steps required to access database
+		- Registering database drivers OR creating datasource
+		- Get Connection
+		- Create Statement
+		- Execute Query
+		- Access ResultSet
+	- RowSet provides more features to access the data on top of Resultset
+	
+Reference: https://docs.oracle.com/javase/tutorial/			
 	
 [Appendix]
 Class Libraries
-	- Language Libraries
 	- Generics
 	- Collection Libraries
 	- Functional Programming
