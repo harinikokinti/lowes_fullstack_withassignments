@@ -25,7 +25,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>hello-world-servlet</finalName>
+		<finalName>employee-mgmt-app03</finalName>
 
 		<plugins>
 			<plugin>
