@@ -24,7 +24,7 @@ public class Employee {
 		
 	}
 	
-	public Employee(String name, int age, String gender, boolean contractor, String designation, String department, String address, String country) {
+	public Employee(String name, int age, String designation, String department, String country) {
 		this.name = name;
 		this.age = age;
 		this.designation = designation;

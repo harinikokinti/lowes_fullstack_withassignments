@@ -26,7 +26,7 @@ public class EmployeeManager {
 		// STEP 3: Transaction Management
 		// STEP 4: Perform CRUD Operations using Query/Criteria API
 
-		Employee emp = new Employee("Mani", 25, "M", false, "Developer", "IT", "Bengaluru", "India");
+		Employee emp = new Employee("Mani", 25, "Developer", "IT", "India");
 
 		listEmployees();
 
@@ -115,12 +115,12 @@ public class EmployeeManager {
 			// List Employee Details
 			List<Employee> employees = entityManager.createQuery("FROM Employee").getResultList();
 
-			System.out.println("ID \tName \tAge \tGender \tDepartment \tDesignation");
+			System.out.println("ID \tName \tAge \tDepartment \tDesignation \tCountry");
 			for (Iterator<Employee> iterator = employees.iterator(); iterator.hasNext();) {
 				Employee employee = (Employee) iterator.next();
 
 				System.out.println(employee.getId() + "\t" + employee.getName() + "\t" + employee.getAge() + "\t"
-						+ "\t" + employee.getDepartment() + "\t" + employee.getDesignation());
+						+ "\t" + employee.getDepartment() + "\t" + employee.getDesignation() + "\t" + employee.getCountry());
 			}
 
 			entityManager.getTransaction().commit();
