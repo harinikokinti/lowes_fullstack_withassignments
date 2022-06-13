@@ -60,4 +60,10 @@ public class AccountServiceImpl implements AccountService {
 		repo.deleteById(id);
 	}
 
+	@Override
+	public List<Account> search(String type) {
+//		return repo.findByType(type);
+		return repo.findByAccountType(type);
+	}
+
 }

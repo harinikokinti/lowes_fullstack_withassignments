@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -82,6 +83,12 @@ public class AccountController {
 		Account updatedAcc = accService.update(id, account);
 		return ResponseEntity.ok().body("Account updated successfully");
 	}
+	
+	// Search Accounts
+	@GetMapping("/search")
+	public List<Account> search(@RequestParam String type) throws AccountException {
+		return accService.search(type);
+	}	
 
 	// Delete Account
 	@DeleteMapping("/{id}")

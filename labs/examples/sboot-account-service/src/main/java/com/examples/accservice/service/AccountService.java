@@ -13,5 +13,6 @@ public interface AccountService {
 	public Account get(int id);
 	public Account update(int id, Account account);
 	public void delete(int id);
+	public List<Account> search(String type);
 
 }
