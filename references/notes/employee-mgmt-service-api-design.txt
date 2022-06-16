@@ -1,0 +1,14 @@
+Employee API
+============
+
+Base URL: http://localhost:8080/empapp
+
+Addressability - /employees
+Accessability - List, Add, Udpate, Delete => GET, POST, PUT, DELETE
+Representation - XML, JSON
+
+GET		/employees			=> List All Employees
+GET 	/employees/{id}		=> List employee for given Id
+POST	/employees			=> Create Employee
+PUT		/employees/{id}		=> Update Employee
+DELETE	/employees/{id}		=> Delete Employee
