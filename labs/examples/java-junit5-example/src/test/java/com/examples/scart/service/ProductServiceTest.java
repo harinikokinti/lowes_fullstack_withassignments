@@ -64,7 +64,9 @@ public class ProductServiceTest {
         }
         catch(Exception e) {
             assertEquals("Product Id mandatory", e.getMessage());
-        }
+//            assertThrowsExactly(Exception.class,  , "Product Id mandatory");
+        }    
+        
     }
 
     @Test
