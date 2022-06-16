@@ -30,8 +30,8 @@ public class ProductServiceControllerTests {
     @Autowired
     TestRestTemplate restTemp;
 
+//  @Autowired    
     @MockBean
-    @Autowired
     ProductService productService;
 
     private static List<Product> products = new ArrayList<>();
@@ -45,7 +45,7 @@ public class ProductServiceControllerTests {
         mobile.setCategory("Mobiles");
         mobile.setManufacturer("Samsung");
         products.add(mobile);
-        productService.createProduct(mobile);
+//        productService.createProduct(mobile);
 
         Product laptop = new Product();
         laptop.setId("2");
@@ -53,12 +53,12 @@ public class ProductServiceControllerTests {
         laptop.setCategory("Laptops");
         laptop.setManufacturer("Lenovo");
         products.add(laptop);
-        productService.createProduct(laptop);
+//        productService.createProduct(laptop);
     }
 
     @AfterEach
     public void cleanup() {
-        productService.clear();
+//        productService.clear();
     	products.clear();
     }
 
