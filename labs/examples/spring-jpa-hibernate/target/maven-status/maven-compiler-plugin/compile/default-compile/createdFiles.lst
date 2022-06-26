@@ -1,0 +1,4 @@
+com/examples/spring/jpa/Order.class
+com/examples/spring/jpa/SpringHibernateJpaMain.class
+com/examples/spring/jpa/JpaConfiguration.class
+com/examples/spring/jpa/Item.class

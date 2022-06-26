@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd1e2b3c-3104-416d-8ef9-14ada12b710e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/concurrency/Eg03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/concurrency/Eg03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/concurrency/Eg14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/concurrency/Eg14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/core/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/core/StringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/CopyFileWithByteStreamEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/CopyFileWithByteStreamEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/CopyFileWithCharBufferedStreamEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/CopyFileWithCharBufferedStreamEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/CopyFileWithCharacterStreamEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/CopyFileWithCharacterStreamEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/DeserializeEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/DeserializeEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/FileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/FileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/SerializeEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/io/SerializeEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/java11/LambdaLocalVarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/java11/LambdaLocalVarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/java11/NewFileMethodsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/java11/NewFileMethodsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/lambda/EmployeeValidationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/lambda/EmployeeValidationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/time/BackwardCompatibilityEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/time/BackwardCompatibilityEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/time/LegacyDateTimeEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core-java-examples/src/com/examples/java/time/LegacyDateTimeEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-examples/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-examples/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithDataSourceEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithDataSourceEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithDriverManagerEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithDriverManagerEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithExternalConfigEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithExternalConfigEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithRowSetEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithRowSetEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithScrollableUpdatableResultSetEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-examples/src/com/examples/java/jdbc/JdbcWithScrollableUpdatableResultSetEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/spring/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/spring/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/HelloSpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/java/com/examples/spring/core/HelloSpringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-core-examples/src/main/resources/beans-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-core-examples/src/main/resources/beans-config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="29veFxa3zrAEPOVus8FWRNazB4f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.examples.spring.AppMain" />
+      <module name="spring-core-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.examples.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd1e2b3c-3104-416d-8ef9-14ada12b710e" name="Default Changelist" comment="" />
+      <created>1653997887615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653997887615</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -11,7 +11,7 @@ spec:
   ports:
   - port: 8761
   externalIPs:
-  - 172.17.0.48
+  - 10.0.0.32
 ---
 apiVersion: apps/v1
 kind: Deployment

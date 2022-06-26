@@ -1,0 +1,184 @@
+2022-06-23 15:00:27.434  INFO 2759 --- [restartedMain] c.l.b.f.FundTransferServiceApplication   : Starting FundTransferServiceApplication using Java 11.0.11 on Dhillis-MacBook-Pro.local with PID 2759 (/Users/dhilli/codebase/bankingapp/fund-transfer-service/target/classes started by dhilli in /Users/dhilli/codebase/bankingapp/fund-transfer-service)
+2022-06-23 15:00:27.436  INFO 2759 --- [restartedMain] c.l.b.f.FundTransferServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 15:00:27.472  INFO 2759 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 15:00:27.472  INFO 2759 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 15:00:28.264  INFO 2759 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e60744cd-551d-3e54-aef6-66c20ee744a2
+2022-06-23 15:00:28.688  INFO 2759 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2022-06-23 15:00:28.695  INFO 2759 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-23 15:00:28.695  INFO 2759 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 15:00:28.756  INFO 2759 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-23 15:00:28.756  INFO 2759 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1283 ms
+2022-06-23 15:00:29.603  WARN 2759 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-06-23 15:00:29.615  INFO 2759 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-06-23 15:00:29.673  WARN 2759 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-06-23 15:00:29.681  INFO 2759 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-06-23 15:00:29.746  INFO 2759 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-06-23 15:00:29.776  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-06-23 15:00:29.781  INFO 2759 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 15:00:29.798  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-06-23 15:00:29.799  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-06-23 15:00:29.799  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-06-23 15:00:29.799  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-06-23 15:00:29.799  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-06-23 15:00:29.799  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-06-23 15:00:29.799  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-06-23 15:00:29.950  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-06-23 15:00:29.952  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-06-23 15:00:29.955  INFO 2759 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-06-23 15:00:29.959  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1655976629959 with initial instances count: 2
+2022-06-23 15:00:29.961  INFO 2759 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FUND-TRANSFER-SERVICE with eureka with status UP
+2022-06-23 15:00:29.961  INFO 2759 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1655976629961, current=UP, previous=STARTING]
+2022-06-23 15:00:29.963  INFO 2759 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FUND-TRANSFER-SERVICE/192.168.0.101:fund-transfer-service:8093: registering service...
+2022-06-23 15:00:29.983  INFO 2759 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2022-06-23 15:00:29.984  INFO 2759 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8093
+2022-06-23 15:00:29.994  INFO 2759 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FUND-TRANSFER-SERVICE/192.168.0.101:fund-transfer-service:8093 - registration status: 204
+2022-06-23 15:00:30.003  INFO 2759 --- [restartedMain] c.l.b.f.FundTransferServiceApplication   : Started FundTransferServiceApplication in 2.891 seconds (JVM running for 3.44)
+2022-06-23 15:00:30.008  INFO 2759 --- [restartedMain] c.l.b.f.FundTransferServiceApplication   : My Application name:Fund Transfer Service with Spring Boot , Username:harini
+2022-06-23 15:00:47.108  INFO 2759 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-23 15:00:47.108  INFO 2759 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-23 15:00:47.110  INFO 2759 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-23 15:01:27.682  WARN 2759 --- [http-nio-8093-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-06-23 15:05:29.807  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 15:10:29.804  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 15:15:29.809  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 16:38:07.652  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 16:43:07.661  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 16:48:07.669  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 16:53:07.679  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 16:58:07.682  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:06:30.536  WARN 2759 --- [http-nio-8093-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-06-23 17:09:53.354  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:14:53.357  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:19:14.431  WARN 2759 --- [http-nio-8093-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-06-23 17:19:53.360  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:24:53.357  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:29:53.360  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:32:58.351  INFO 2759 --- [http-nio-8093-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-06-23 17:32:58.399  INFO 2759 --- [http-nio-8093-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
+2022-06-23 17:32:58.448  INFO 2759 --- [http-nio-8093-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.1.1
+2022-06-23 17:32:58.448  INFO 2759 --- [http-nio-8093-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 97671528ba54a138
+2022-06-23 17:32:58.448  INFO 2759 --- [http-nio-8093-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1655985778446
+2022-06-23 17:32:58.817  INFO 2759 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition FUNDTRANSFER_CREATED-0 to 0 since the associated topicId changed from null to _1HMHa4DQReus12uU6stgw
+2022-06-23 17:32:58.819  INFO 2759 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: TnchDmSFTGKn42g1ZLNHlQ
+2022-06-23 17:32:58.820  INFO 2759 --- [kafka-producer-network-thread | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 0 with epoch 0
+2022-06-23 17:34:01.210  INFO 2759 --- [http-nio-8093-exec-1] c.l.b.f.e.FundTransferExceptionHandler   : In MethodArgumentNotValidException org.springframework.validation.BeanPropertyBindingResult: 3 errors
+Field error in object 'fundTransfer' on field 'sourceAccId': rejected value []; codes [NotBlank.fundTransfer.sourceAccId,NotBlank.sourceAccId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [fundTransfer.sourceAccId,sourceAccId]; arguments []; default message [sourceAccId]]; default message [sourceAccId cannot be blank]
+Field error in object 'fundTransfer' on field 'targetAccId': rejected value [null]; codes [NotBlank.fundTransfer.targetAccId,NotBlank.targetAccId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [fundTransfer.targetAccId,targetAccId]; arguments []; default message [targetAccId]]; default message [targetAccId cannot be blank]
+Field error in object 'fundTransfer' on field 'amount': rejected value [0.0]; codes [Min.fundTransfer.amount,Min.amount,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [fundTransfer.amount,amount]; arguments []; default message [amount],1]; default message [Minimum amount > 0]
+2022-06-23 17:34:01.214  WARN 2759 --- [http-nio-8093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.lowes.bankingapp.fundtransfer.model.ResponseMessage> com.lowes.bankingapp.fundtransfer.controller.FundTransferController.create(com.lowes.bankingapp.fundtransfer.model.FundTransfer) throws java.net.URISyntaxException with 3 errors: [Field error in object 'fundTransfer' on field 'sourceAccId': rejected value []; codes [NotBlank.fundTransfer.sourceAccId,NotBlank.sourceAccId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [fundTransfer.sourceAccId,sourceAccId]; arguments []; default message [sourceAccId]]; default message [sourceAccId cannot be blank]] [Field error in object 'fundTransfer' on field 'targetAccId': rejected value [null]; codes [NotBlank.fundTransfer.targetAccId,NotBlank.targetAccId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [fundTransfer.targetAccId,targetAccId]; arguments []; default message [targetAccId]]; default message [targetAccId cannot be blank]] [Field error in object 'fundTransfer' on field 'amount': rejected value [0.0]; codes [Min.fundTransfer.amount,Min.amount,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [fundTransfer.amount,amount]; arguments []; default message [amount],1]; default message [Minimum amount > 0]] ]
+2022-06-23 17:34:53.364  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:39:53.354  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:41:58.821  INFO 2759 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -1 disconnected.
+2022-06-23 17:44:53.356  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:49:40.064  INFO 2759 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition FUNDTRANSFER_CREATED-0 to 0 since the associated topicId changed from null to _1HMHa4DQReus12uU6stgw
+2022-06-23 17:49:53.356  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:54:53.355  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 17:57:08.612  WARN 2759 --- [http-nio-8093-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.lowes.bankingapp.fundtransfer.exception.InsufficientBalanceException: No sufficient balance to transfer or Check if the source account is active]
+2022-06-23 17:59:53.358  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:04:53.360  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:09:53.368  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:14:53.372  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:19:53.373  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:24:53.410  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:29:53.414  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:34:53.418  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:39:53.435  INFO 2759 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-06-23 18:43:41.125  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-23 18:43:41.173  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FUND-TRANSFER-SERVICE with eureka with status DOWN
+2022-06-23 18:43:41.174  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1655990021174, current=DOWN, previous=UP]
+2022-06-23 18:43:41.179  INFO 2759 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FUND-TRANSFER-SERVICE/192.168.0.101:fund-transfer-service:8093: registering service...
+2022-06-23 18:43:41.266  INFO 2759 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FUND-TRANSFER-SERVICE/192.168.0.101:fund-transfer-service:8093 - registration status: 204
+2022-06-23 18:43:41.447  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-06-23 18:43:41.462  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-06-23 18:43:41.462  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-06-23 18:43:41.462  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-06-23 18:43:41.463  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-1 unregistered
+2022-06-23 18:43:41.468  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-06-23 18:43:44.476  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-06-23 18:43:44.492  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FUND-TRANSFER-SERVICE/192.168.0.101:fund-transfer-service:8093 - deregister  status: 200
+2022-06-23 18:43:44.516  INFO 2759 --- [RMI TCP Connection(173)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

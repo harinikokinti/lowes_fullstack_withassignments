@@ -11,7 +11,7 @@ spec:
   ports:
   - port: 8111
   externalIPs:
-  - 172.17.0.103
+  - 10.0.0.32
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -36,4 +36,4 @@ spec:
         - containerPort: 8111
         env:
         - name: REGISTRY_SERVER_HOST
-          value: 10.97.214.28      
+          value: 10.99.80.21  

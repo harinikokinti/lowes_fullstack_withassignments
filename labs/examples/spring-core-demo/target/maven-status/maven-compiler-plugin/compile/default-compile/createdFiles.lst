@@ -1,0 +1,4 @@
+com/examples/spring/AppMain.class
+com/examples/spring/Engine.class
+com/examples/spring/Car.class
+com/examples/spring/GenericBeanPostProcessor.class
